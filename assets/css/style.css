@@ -1,0 +1,17 @@
+img{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+h1{
+    font-size: 20px;
+    color: black;
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 15px;
+    width:250px;
+    float: left;
+    position: relative;
+}
