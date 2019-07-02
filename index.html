@@ -8,13 +8,10 @@
     <title>Crystal Collector Game</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script
- src="https://code.jquery.com/jquery-3.4.1.js"
- integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
- crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 
 </head>
-
 
 <body style="background-image:url('assets/images/background.jpg');">
     <h1>The Crystal Collector Game!</h1>
@@ -27,21 +24,31 @@
             Each time when the game starts, the game will change the values of each crystal.
         </p>
     </div>
+
     <div class="row">
-        <div class="col-md-6">
-    <div class="container2">
-            <img src="assets/images/bluecrystal.jpeg" alt="Blue" style="height:150px; width:150px;">
-            <img src="assets/images/redcrystal.jpeg" alt="Red" style="height:150px; width:150px;">
-            <img src="assets/images/greencrystal.png" alt="Green" style="height:150px; width:150px;">
-            <img src="assets/images/purplecrystal.jpeg" alt="Purple" style="height:150px; width:150px;">
-        </div>
-        </div>
-
-        <div class="container3">
-            <p>Number:</p>
-
+        <div class="container2">
+            <h2>Number:
+                <span id="randomNo"></span>
+            </h2>
+            <h2>Wins:
+                <span id="totalWins"></span>
+            </h2>
+            <h2>Losses:
+                <span id="totalLosses"></span>
+            </h2>
     </div>
+            <div class="crystals">
+                <img src="assets/images/bluecrystal.jpeg" id="Blue" style="height:150px; width:150px;">
+                <img src="assets/images/redcrystal.jpeg" id="Red" style="height:150px; width:150px;">
+                <img src="assets/images/greencrystal.png" id="Green" style="height:150px; width:150px;">
+                <img src="assets/images/purplecrystal.jpeg" id="Purple" style="height:150px; width:150px;">
         </div>
+        <div class="total">
+            <h2>Your Total Score:
+                <span id="finalTotal"></span>
+            </h2>
+        </div>
+    </div>
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 

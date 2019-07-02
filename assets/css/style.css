@@ -23,16 +23,28 @@ h1{
     float: initial;
     position: relative;
 }
-.container2{
-    margin:15px;
-    padding:20px;
-    width:800px;
-    height:70px;
+.crystals{
+    width:50%;
 }
-.container3{
-    margin:50px;
+.container2{
+    float:left;
     padding:5px;
-    width: 150px;
+    width: 25%;
     height:150px;
-
+    background:black;
+    color:white;
+    font-size:25px;
+}
+.total{
+    float:right;
+    padding:5px;
+    width:25%;
+    height:150px;
+    background: black;
+    color: white;
+    font-size:25px;
+}
+.row{
+    display: table;
+    clear: both;
 }
