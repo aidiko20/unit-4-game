@@ -1,2 +1,2 @@
 # unit-4-game
- ![Alt text](screenshot.png)
+![Alt text](screenshot.png)
