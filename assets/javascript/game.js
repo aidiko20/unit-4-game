@@ -36,20 +36,20 @@ $(document).ready(function () {
         $("#totalLosses").text(losses);
         reset()
     }
-    $(document).ready(function(){
-    $("#blue").click(function() {
-        total = total + crys1;
-        $("#finalTotal").text(total);
+    $(document).ready(function () {
+        $("#blue").click(function () {
+            total = total + crys1;
+            $("#finalTotal").text(total);
 
-        if (total == random) {
-            won();
-        }
-        else if (total > random) {
-            lost();
-        }
+            if (total == random) {
+                won();
+            }
+            else if (total > random) {
+                lost();
+            }
+        });
+        console.log(click)
     });
-    console.log(click)
-});
     $("#red").on("click", function () {
         total = total + crys2;
         $("#finalTotal").text(total);
